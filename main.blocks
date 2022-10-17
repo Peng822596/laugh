@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="I@1e~X2yX@?g9x41icFS">SB</variable></variables><block type="device_button_event" id="ZSSP7VP7_w{|6[;NKq$Y" x="256" y="-15"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="playMelody" id="dQ2O-T-4}DDAdy,b*_r/"><value name="melody"><shadow type="melody_editor" id="MG7)qpmB4/scK4nCg-L`"><field name="melody">"E B C5 A B G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="#9-HuUyJFCI!P?8HOzcj"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="soundExpression_playSoundEffect" id="dGi_~*WQ!^p2-d@lFaGv"><field name="mode">SoundExpressionPlayMode.InBackground</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="ruayW1/oa59N8sdDfe#N"><field name="soundExpression">soundExpression.mysterious</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="9%fXF|Y_3cY_/O[5g!ZW" x="0" y="0"><statement name="HANDLER"><block type="controls_repeat_ext" id="lm{iZ%0f1mhY5Tj5f5/O"><value name="TIMES"><shadow type="math_whole_number" id=".0[y+x^.%Uekd3.P+*ds"><field name="NUM">100000000</field></shadow></value><statement name="DO"><block type="device_show_leds" id="0K0xgNkmF0~NNEaf[hJG"><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        . # . # . 
+        # . # . # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="t)-H,,%(Pgu!e8jUigx5"><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        # . # . # 
+        . # . # .
+        `</field></block></next></block></statement></block></statement></block><block type="device_gesture_event" id="WE=k,G_Z0dU3Jl1_BwMK" x="760" y="133"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_repeat_ext" id="ql@BKNG0%kN}P]b;A2t/"><value name="TIMES"><shadow type="math_whole_number" id="1Sh4:;6wGrfz-l|p_?y:"><field name="NUM">100000000000000000</field></shadow></value><statement name="DO"><block type="device_show_leds" id="k33R#R-=o%:#iy(rL8eO"><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="^UfT#Fi,!L5grJ@~oGU="><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block></statement></block><block type="device_button_event" id="XS^1f45h]B{uROpO%b2e" x="261" y="177"><field name="NAME">Button.B</field></block><block type="device_button_event" id=",.9B!us9E;I?D0d}@K.+" x="259" y="494"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_arrow" id="b~=*XEobUxCT`laN$S3i"><value name="i"><shadow type="device_arrow" id="{-MuXwydzP[)G+1V~4(X"><field name="arrow">ArrowNames.North</field></shadow></value><next><block type="basic_show_arrow" id="^!x0Ary@HQEGnJkWsqWs"><value name="i"><shadow type="device_arrow"><field name="arrow">ArrowNames.North</field></shadow><block type="device_heading" id="r?~M~Myo=$MUi0;,g_C_"></block></value><next><block type="basic_show_arrow" id="LT7Wm@A9Z:HS_,tLQ~oS"><value name="i"><shadow type="device_arrow"><field name="arrow">ArrowNames.North</field></shadow><block type="device_get_light_level" id="83l4]{E^0W4fc2#h)%@C"></block></value><next><block type="basic_show_arrow" id="|ec_=S^vCg}C}-?e#0~M"><value name="i"><shadow type="device_arrow"><field name="arrow">ArrowNames.North</field></shadow><block type="device_temperature" id="s}agB^QM_PU|;I=Bj[yQ"></block></value><next><block type="playMelody" id="BWx)nQgC~xWnZTDpzKfd"><value name="melody"><shadow type="melody_editor" id="z~3[lbT1S]anE[MmRh~*"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="#q[0|-Ex=BK8c:kQ|YTN"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
